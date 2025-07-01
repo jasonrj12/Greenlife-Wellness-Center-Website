@@ -1,0 +1,73 @@
+/* Icon Styling - GreenLife Wellness Center */
+
+/* Icon circles with proper centering */
+.stat-card .icon,
+.dashboard-icon,
+.feature-icon,
+.service-icon,
+.info-icon,
+.icon-container {
+    width: 60px;
+    height: 60px;
+    background-color: #28a745;
+    color: white;
+    border-radius: 50%;
+    margin: 0 auto 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/* Smaller icon variant */
+.icon-sm {
+    width: 45px;
+    height: 45px;
+    font-size: 1.2rem;
+}
+
+/* Larger icon variant */
+.icon-lg {
+    width: 80px;
+    height: 80px;
+    font-size: 1.8rem;
+}
+
+/* Default icon size */
+.stat-card .icon i,
+.dashboard-icon i,
+.feature-icon i,
+.service-icon i,
+.info-icon i,
+.icon-container i {
+    font-size: 1.5rem;
+    position: relative;
+    z-index: 2;
+}
+
+/* Fix for rounded circle backgrounds */
+.bg-success.rounded-circle,
+.rounded-circle.bg-success,
+.rounded-circle.bg-primary,
+.rounded-circle.bg-info,
+.rounded-circle.bg-warning,
+.rounded-circle.bg-secondary {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Ensure icons are properly centered and visible */
+.bg-success.rounded-circle i,
+.rounded-circle i.fa,
+.rounded-circle i.fas {
+    position: relative;
+    z-index: 5;
+}
+
+/* Card icon styles */
+.card-icon {
+    margin-bottom: 1rem;
+    text-align: center;
+}

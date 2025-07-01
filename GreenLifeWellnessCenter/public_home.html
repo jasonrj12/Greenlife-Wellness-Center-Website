@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenLife Wellness Center - Your Path to Natural Healing</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-success" href="index.php">
+                <img src="images/logo.png" alt="GreenLife Wellness Center Logo" style="width: 32px; height: 32px; object-fit: contain; margin-right: 8px;">
+                GreenLife Wellness
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#therapists">Therapists</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact_us.php">Contact</a>
+                    </li>
+                </ul>
+                <div class="navbar-nav">
+                    <a class="nav-link" href="login.php">Login</a>
+                    <a class="btn btn-success ms-2" href="register.php">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold text-dark mb-4">
+                        Your Journey to <span class="text-success">Natural Wellness</span> Starts Here
+                    </h1>
+                    <p class="lead mb-4">
+                        Experience holistic healing through our comprehensive wellness services. 
+                        From yoga therapy to nutrition counseling, we're here to guide you towards optimal health.
+                    </p>
+                    <div class="d-flex gap-3">
+                        <a href="register.php" class="btn btn-success btn-lg">
+                            <i class="fas fa-user-plus me-2"></i>Start Your Journey
+                        </a>
+                        <a href="#services" class="btn btn-outline-success btn-lg">
+                            <i class="fas fa-spa me-2"></i>Explore Services
+                        </a>
+                    </div>
+                    
+                    <!-- Quick Stats -->
+                    <div class="row mt-5">
+                        <div class="col-4">
+                            <div class="text-center">
+                                <h3 class="text-success mb-0">500+</h3>
+                                <small class="text-muted">Happy Clients</small>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="text-center">
+                                <h3 class="text-success mb-0">6</h3>
+                                <small class="text-muted">Wellness Services</small>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="text-center">
+                                <h3 class="text-success mb-0">4+</h3>
+                                <small class="text-muted">Expert Therapists</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image">
+                        <img src="images/hero-wellness.jpg" alt="Wellness Center" class="img-fluid rounded-3 shadow-lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5" style="background: linear-gradient(135deg, #f9fafb 0%, #f3f4f6 100%);">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="display-5 fw-bold">Our Wellness Services</h2>
+                <p class="lead">Comprehensive holistic treatments for mind, body, and spirit</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-hand-holding-heart"></i>
+                        </div>
+                        <h4>Yoga Therapy</h4>
+                        <p>Personalized yoga sessions designed to improve flexibility, reduce stress, and enhance overall well-being.</p>
+                        <div class="service-price">Rs. 5,000</div>
+                        <a href="appointment_booking.php" class="btn btn-success">Book Session</a>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-spa"></i>
+                        </div>
+                        <h4>Massage Therapy</h4>
+                        <p>Therapeutic massage treatments to relieve muscle tension, improve circulation, and promote relaxation.</p>
+                        <div class="service-price">Rs. 7,500</div>
+                        <a href="appointment_booking.php" class="btn btn-success">Book Session</a>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h4>Meditation Counseling</h4>
+                        <p>Learn mindfulness techniques and meditation practices to achieve mental clarity and emotional balance.</p>
+                        <div class="service-price">Rs. 4,000</div>
+                        <a href="appointment_booking.php" class="btn btn-success">Book Session</a>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-apple-alt"></i>
+                        </div>
+                        <h4>Nutrition Consultation</h4>
+                        <p>Personalized dietary planning and nutritional guidance to support your health goals.</p>
+                        <div class="service-price">Rs. 6,000</div>
+                        <a href="appointment_booking.php" class="btn btn-success">Book Session</a>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-seedling"></i>
+                        </div>
+                        <h4>Aromatherapy</h4>
+                        <p>Essential oil treatments that promote healing, relaxation, and emotional well-being.</p>
+                        <div class="service-price">Rs. 3,500</div>
+                        <a href="appointment_booking.php" class="btn btn-success">Book Session</a>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-hand-holding-medical"></i>
+                        </div>
+                        <h4>Acupuncture</h4>
+                        <p>Traditional acupuncture treatments for pain relief, stress reduction, and overall health improvement.</p>
+                        <div class="service-price">Rs. 8,000</div>
+                        <a href="appointment_booking.php" class="btn btn-success">Book Session</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Therapists Section -->
+    <section id="therapists" class="py-5">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="display-5 fw-bold">Meet Our Expert Therapists</h2>
+                <p class="lead">Experienced professionals dedicated to your wellness journey</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="therapist-card text-center">
+                        <div class="therapist-image">
+                            <img src="images/therapist-1.jpg" alt="Dr. Samara Perera" class="img-fluid rounded-circle">
+                        </div>
+                        <h5 class="mt-3">Dr. Samara Perera</h5>
+                        <p class="text-success">Yoga & Meditation Specialist</p>
+                        <p class="small text-muted">10+ years experience in holistic healing and mindfulness practices.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3">
+                    <div class="therapist-card text-center">
+                        <div class="therapist-image">
+                            <img src="images/therapist-2.jpg" alt="Dr. Nimal Silva" class="img-fluid rounded-circle">
+                        </div>
+                        <h5 class="mt-3">Dr. Nimal Silva</h5>
+                        <p class="text-success">Massage Therapy Expert</p>
+                        <p class="small text-muted">Certified in multiple massage techniques with 8+ years experience.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3">
+                    <div class="therapist-card text-center">
+                        <div class="therapist-image">
+                            <img src="images/therapist-3.jpg" alt="Dr. Priya Fernando" class="img-fluid rounded-circle">
+                        </div>
+                        <h5 class="mt-3">Dr. Priya Fernando</h5>
+                        <p class="text-success">Nutrition & Wellness Coach</p>
+                        <p class="small text-muted">Licensed nutritionist with expertise in holistic dietary planning.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3">
+                    <div class="therapist-card text-center">
+                        <div class="therapist-image">
+                            <img src="images/therapist-4.jpg" alt="Dr. Kamal Rajapakse" class="img-fluid rounded-circle">
+                        </div>
+                        <h5 class="mt-3">Dr. Kamal Rajapakse</h5>
+                        <p class="text-success">Acupuncture Specialist</p>
+                        <p class="small text-muted">Traditional medicine practitioner with 15+ years experience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5" style="background: linear-gradient(135deg, #f9fafb 0%, #f3f4f6 100%);">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="section-header text-start">
+                        <h2 class="display-5 fw-bold mb-4">About GreenLife Wellness Center</h2>
+                        <p class="lead">
+                            Founded with a vision to promote natural healing and holistic wellness, 
+                            GreenLife Wellness Center has been serving the community for over a decade.
+                        </p>
+                    </div>
+                    <p>
+                        Our center combines traditional healing practices with modern wellness approaches 
+                        to provide comprehensive care for mind, body, and spirit. We believe that true 
+                        wellness comes from addressing the whole person, not just symptoms.
+                    </p>
+                    
+                    <div class="row mt-4">
+                        <div class="col-6">
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Certified Therapists</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Personalized Treatment</span>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Natural Methods</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Holistic Approach</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image">
+                        <img src="images/about-center.webp" alt="Wellness Center" class="img-fluid rounded-3 shadow">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-5 cta-section">
+        <div class="container text-center">
+            <h2 class="display-5 fw-bold mb-4">Ready to Start Your Wellness Journey?</h2>
+            <p class="lead mb-4">Join hundreds of satisfied clients who have transformed their lives through our services.</p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="register.php" class="btn btn-light btn-lg">
+                    <i class="fas fa-user-plus me-2"></i>Register Now
+                </a>
+                <a href="contact_us.php" class="btn btn-outline-light btn-lg">
+                    <i class="fas fa-phone me-2"></i>Contact Us
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="modern-footer text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5 class="text-success mb-3">
+                        <img src="images/logo.png" alt="GreenLife Wellness Center Logo" style="width: 24px; height: 24px; object-fit: contain; margin-right: 8px;">
+                        GreenLife Wellness
+                    </h5>
+                    <p>Your trusted partner in natural healing and holistic wellness. Experience the difference of personalized care.</p>
+                    <div class="social-links">
+                        <a href="#" class="text-white"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="mb-3">Contact Info</h5>
+                    <p><i class="fas fa-map-marker-alt me-2"></i>123 Wellness Street, Colombo 07, Sri Lanka</p>
+                    <p><i class="fas fa-phone me-2"></i>+94 11 234 5678</p>
+                    <p><i class="fas fa-envelope me-2"></i>info@greenlifewellness.com</p>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="mb-3">Operating Hours</h5>
+                    <p><strong>Monday - Saturday:</strong><br>9:00 AM - 6:00 PM</p>
+                    <p><strong>Sunday:</strong><br>Closed</p>
+                    <p><small class="text-muted">Emergency consultations available by appointment</small></p>
+                </div>
+            </div>
+            <hr class="my-4" style="border-color: rgba(255, 255, 255, 0.1);">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2024 GreenLife Wellness Center. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end footer-links">
+                    <a href="#" class="me-3">Privacy Policy</a>
+                    <a href="#" class="me-3">Terms of Service</a>
+                    <a href="#" class="">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
